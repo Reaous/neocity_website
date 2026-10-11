@@ -10,8 +10,8 @@ body {
     background-image: var(--body-bg-image);
     background-size: cover;
     background-position: center;
-    background-attachement: fixed;
-    colour: var(--text-color);
+    background-attachment: fixed;
+    color: var(--text-color);
     font-family: sans-serif;
 
 
@@ -87,4 +87,12 @@ h1{
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-size: 1.2rem;
+}
+
+#second-section {
+    margin-top: 40px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: rgba(253, 0, 0, 0.8);
+    border-radius: 30px;
 }
