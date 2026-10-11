@@ -88,3 +88,10 @@ main {
     color: rgba(253, 0, 0, 0.8);
     border-radius: 30px;
 }
+
+#yap2 {
+    padding: 40px;
+    text-shadow:2px 2px 4px black;
+    border-radius : 30px;
+
+}
