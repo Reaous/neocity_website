@@ -1,0 +1,90 @@
+:root {
+    --body-bg-image: url("images/background.png");
+    --accent-color: rgb(237, 100, 245);
+    --text-color: rgb(252, 234, 255);
+}
+
+body {
+    margin: 0;
+    background-color: #08031a;
+    background-image: var(--body-bg-image);
+    background-size: cover;
+    background-position: center;
+    background-attachement: fixed;
+    colour: var(--text-color);
+    font-family: sans-serif;
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(13, 5, 30, 0.412);
+}
+
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#leftsidebar {
+    font-family: "Press Start 2P", ;
+    width: 30%;
+    background-color: rgba(208, 204, 217, 0.85);
+    padding: 20px;
+    font-size: 12px;
+}
+
+#leftsidebar h2 {
+    color: rgba(23, 23, 228, 0.8);
+    margin-top: 0;
+ 
+}
+
+
+
+main {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+h1{
+    color: var(--accent-color);
+}
+
+.gameboy-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gameboy-img {
+    max-width: 150%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gameboy-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    width: 80%;
+
+}
+
+.gameboy-text h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+}
