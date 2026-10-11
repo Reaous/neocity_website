@@ -1,13 +1,8 @@
-:root {
-    --body-bg-image: url("images/background.png");
-    --accent-color: rgb(237, 100, 245);
-    --text-color: rgb(252, 234, 255);
-}
 
 body {
     margin: 0;
     background-color: #08031a;
-    background-image: var(--body-bg-image);
+    background-image:url("images/background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,7 +19,7 @@ body {
 #container {
     max-width: 900px;
     margin: 40px auto;
-    background-color: rgba(13, 5, 30, 0.412);
+    background-color: rgba(13, 5, 30, 0.599);
 }
 
 
@@ -36,10 +31,10 @@ body {
 
 #leftsidebar {
     font-family: "Press Start 2P", ;
-    width: 30%;
+    width: 40%;
     background-color: rgba(208, 204, 217, 0.85);
     padding: 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #leftsidebar h2 {
@@ -56,9 +51,6 @@ main {
     
 }
 
-h1{
-    color: var(--accent-color);
-}
 
 .gameboy-container {
     position: relative;
